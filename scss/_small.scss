@@ -24,7 +24,7 @@ body {
 #headerWrapper {border-bottom: 1px solid $greyColor;}
 header {
     display: grid;
-    grid-template-columns: 50px auto;
+    grid-template-columns: 50px auto 44px;
     column-gap: $gutter;
     align-items: center; //vertically
     padding: .5rem $gutter;
@@ -41,22 +41,50 @@ header {
     content: "\2630";
 }
 //style the button
-#primary button {
+#primaryNav button {
     border: none;
     background: none;
     font-size: 2rem;
     padding: 0;
     width: 44px;
     height: 44px;
-    position: absolute;
-    top: 0;
-    right: 0;
+   
 }
 
+#primaryNav ul {
+    position: absolute;
+    right: $gutter;
+    width: 200px;
+    background-color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #aaa;
+    text-align: right;
+    display: none;
+}
 
+li a {
+    color: $primaryColor;
+    display: block;
+    padding: .75rem $gutter;
+    text-decoration: none;
+}
+li.active a {
+    background-color: $secondaryColor;
+    color: white;
+    font-weight: $normalWeight;
+} //end unordered
 
-
-
+/*css for the open class*/
+#primaryNav button.open::before {
+    content: "\2715";
+}
+#primaryNav ul.open {
+    display: block;
+}
 
 
 
