@@ -88,10 +88,6 @@ li.active a {
 
 
 
-
-
-
-
 /* --------------------------- MAIN --------------------------- */
 main {
     h1 {
@@ -106,6 +102,34 @@ main {
         line-height: $leading;
     }
 }// end main
+
+//create the for loop
+@for $i from 1 through 12 {
+    $w: calc($i /12) *100%;
+    .small-#{$i} {flex-basis: $w;}
+}
+
+//styling the rows
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    border: red solid 1px;
+
+}
+
+//styling the column
+.column {
+    border: blue solid 1px;
+    
+}
+
+
+
+
+
+
 
 
 

@@ -5,6 +5,13 @@
 header {
     grid-template-columns: 50px auto auto;
 }
+
+//create the for loop
+@for $i from 1 through 12 {
+    $w: calc($i /12) *100%;
+    .medium-#{$i} {flex-basis: $w;}
+}
+
 #primaryNav ul, #primaryNav ul.open {
     display: flex;
     justify-content: flex-end;
@@ -19,3 +26,4 @@ header {
         text-decoration: underline 4px $accentColor;
     }
 }//end ul
+
