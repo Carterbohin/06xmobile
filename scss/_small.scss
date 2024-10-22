@@ -109,19 +109,27 @@ main {
     .small-#{$i} {flex-basis: $w;}
 }
 
+main img {
+    width: 100%;
+    height: auto;
+}
+
 //styling the rows
 .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
-    border: red solid 1px;
+    margin: 1rem 0;
+    padding: 0 8px;
+    //border: red solid 1px;
 
 }
 
 //styling the column
 .column {
-    border: blue solid 1px;
+    padding: 0 8px;
+    margin: 8px 0;
+    //border: blue solid 1px;
     
 }
 

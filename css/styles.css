@@ -450,15 +450,22 @@ main p {
   flex-basis: 100%;
 }
 
+main img {
+  width: 100%;
+  height: auto;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border: red solid 1px;
+  margin: 1rem 0;
+  padding: 0 8px;
 }
 
 .column {
-  border: blue solid 1px;
+  padding: 0 8px;
+  margin: 8px 0;
 }
 
 /* --------------------------- FOOTER --------------------------- */
