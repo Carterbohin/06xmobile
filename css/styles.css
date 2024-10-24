@@ -468,6 +468,10 @@ main img {
   margin: 8px 0;
 }
 
+.line, .round, .fill, .shadow {
+  padding: 8px 8px;
+}
+
 .line {
   border: 1px green solid;
 }
@@ -477,7 +481,7 @@ main img {
 }
 
 .fill {
-  background-color: #333;
+  background-color: #e3e3e3;
 }
 
 .shadow {

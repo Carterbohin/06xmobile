@@ -133,6 +133,9 @@ main img {
     
 }
 
+.line, .round, .fill, .shadow {
+    padding: 8px 8px;
+}
 .line {
     border: 1px green solid;
 }
@@ -140,7 +143,7 @@ main img {
     border-radius: 9px;
 }
 .fill{
-    background-color: #333;
+    background-color: #e3e3e3;
 }
 .shadow {
     box-shadow: 0 0 10px #aaa;
