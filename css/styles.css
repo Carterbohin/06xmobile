@@ -468,6 +468,22 @@ main img {
   margin: 8px 0;
 }
 
+.line {
+  border: 1px green solid;
+}
+
+.round {
+  border-radius: 9px;
+}
+
+.fill {
+  background-color: #333;
+}
+
+.shadow {
+  box-shadow: 0 0 10px #aaa;
+}
+
 /* --------------------------- FOOTER --------------------------- */
 #footerWrapper {
   background-color: #1d295f;

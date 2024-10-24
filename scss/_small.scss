@@ -133,7 +133,18 @@ main img {
     
 }
 
-
+.line {
+    border: 1px green solid;
+}
+.round {
+    border-radius: 9px;
+}
+.fill{
+    background-color: #333;
+}
+.shadow {
+    box-shadow: 0 0 10px #aaa;
+}
 
 
 
