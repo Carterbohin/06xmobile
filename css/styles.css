@@ -305,6 +305,8 @@ template {
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+  background-color: #1e1e1e;
+  color: whitesmoke;
 }
 
 /*  Apply a natural box layout model to all elements  */
@@ -314,6 +316,7 @@ html {
 
 /* --------------------------- BODY --------------------------- */
 body {
+  color: whitesmoke;
   font-family: "Spline Sans", sans-serif;
   font-weight: 300;
   min-width: 320px;
@@ -321,7 +324,7 @@ body {
 
 /* --------------------------- HEADER --------------------------- */
 #headerWrapper {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid whitesmoke;
 }
 
 header {
@@ -335,7 +338,7 @@ header {
 header span {
   font-size: 1.6rem;
   font-weight: 300;
-  color: #1d295f;
+  color: whitesmoke;
 }
 
 /* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
@@ -356,7 +359,7 @@ header span {
   position: absolute;
   right: 10px;
   width: 200px;
-  background-color: white;
+  background-color: whitesmoke;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -368,14 +371,14 @@ header span {
 }
 
 li a {
-  color: #1d295f;
+  color: #1e1e1e;
   display: block;
   padding: 0.75rem 10px;
   text-decoration: none;
 }
 
 li.active a {
-  background-color: #7c1d47;
+  background-color: #3990c3;
   color: white;
   font-weight: 500;
 }
@@ -393,12 +396,12 @@ li.active a {
 main h1 {
   padding: 1rem 10px 0.5rem 10px;
   font-size: 1.5rem;
-  color: #7c1d47;
+  color: #3990c3;
   font-weight: 300;
 }
 main p {
   padding: 0.5rem 10px;
-  color: #333;
+  color: whitesmoke;
   line-height: 150%;
 }
 
@@ -481,27 +484,27 @@ main img {
 }
 
 .fill {
-  background-color: #e3e3e3;
+  background-color: #b0b0b0;
 }
 
 .shadow {
-  box-shadow: 0 0 10px #aaa;
+  box-shadow: 0 0 10px #3990c3;
 }
 
 /* --------------------------- FOOTER --------------------------- */
 #footerWrapper {
-  background-color: #1d295f;
+  background-color: #3990c3;
 }
 
 footer {
   font-size: 0.85rem;
   padding: 1rem 10px;
-  color: #ccc;
+  color: #1e1e1e;
   text-align: center;
   line-height: 150%;
 }
 footer a {
-  color: #ccc;
+  color: #b0b0b0;
 }
 
 @media only screen and (min-width: 39rem) {

@@ -2,6 +2,8 @@
 html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
+    background-color: #1e1e1e;
+    color: whitesmoke;
 }
 
 /*  Apply a natural box layout model to all elements  */
@@ -14,6 +16,7 @@ html {
 
 /* --------------------------- BODY --------------------------- */
 body {
+    color: whitesmoke;
     font-family: $defaultFont;
     font-weight: $lightWeight;
     min-width: 320px;
@@ -21,7 +24,7 @@ body {
 
 
 /* --------------------------- HEADER --------------------------- */
-#headerWrapper {border-bottom: 1px solid $greyColor;}
+#headerWrapper {border-bottom: 1px solid whitesmoke;}
 header {
     display: grid;
     grid-template-columns: 50px auto 44px;
@@ -31,7 +34,7 @@ header {
     span {
         font-size: 1.6rem;
         font-weight: $lightWeight;
-        color: $primaryColor;
+        color: whitesmoke;
     }
 } // end header
 
@@ -55,7 +58,8 @@ header {
     position: absolute;
     right: $gutter;
     width: 200px;
-    background-color: white;
+
+    background-color: whitesmoke;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -67,13 +71,13 @@ header {
 }
 
 li a {
-    color: $primaryColor;
+    color: #1e1e1e;
     display: block;
     padding: .75rem $gutter;
     text-decoration: none;
 }
 li.active a {
-    background-color: $secondaryColor;
+    background-color: $accentColor;
     color: white;
     font-weight: $normalWeight;
 } //end unordered
@@ -93,12 +97,13 @@ main {
     h1 {
         padding: 1rem $gutter.5rem $gutter;
         font-size: 1.5rem;
-        color: $secondaryColor;
+        color: $accentColor;
         font-weight: $lightWeight
     }
     p {
         padding: .5rem $gutter;
-        color: #333;
+
+        color: whitesmoke;
         line-height: $leading;
     }
 }// end main
@@ -143,10 +148,10 @@ main img {
     border-radius: 9px;
 }
 .fill{
-    background-color: #e3e3e3;
+    background-color: $greyColor;
 }
 .shadow {
-    box-shadow: 0 0 10px #aaa;
+    box-shadow: 0 0 10px $accentColor;
 }
 
 
@@ -157,13 +162,13 @@ main img {
 
 /* --------------------------- FOOTER --------------------------- */
 #footerWrapper {
-    background-color: $primaryColor
+    background-color: $accentColor;
 } // end footer wrapper
 
 footer {
     font-size: .85rem;
     padding: 1rem $gutter;
-    color: $greyColor;
+    color: #1e1e1e;
     text-align: center;
     line-height: $leading;
     a {color: $greyColor;}
