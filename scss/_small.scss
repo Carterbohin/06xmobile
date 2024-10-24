@@ -78,7 +78,7 @@ li a {
 }
 li.active a {
     background-color: $accentColor;
-    color: white;
+    color: #1e1e1e;
     font-weight: $normalWeight;
 } //end unordered
 
@@ -148,7 +148,7 @@ main img {
     border-radius: 9px;
 }
 .fill{
-    background-color: $greyColor;
+    background-color: #1c1a38;
 }
 .shadow {
     box-shadow: 0 0 10px $accentColor;

@@ -379,7 +379,7 @@ li a {
 
 li.active a {
   background-color: #3990c3;
-  color: white;
+  color: #1e1e1e;
   font-weight: 500;
 }
 
@@ -484,7 +484,7 @@ main img {
 }
 
 .fill {
-  background-color: #b0b0b0;
+  background-color: #1c1a38;
 }
 
 .shadow {
